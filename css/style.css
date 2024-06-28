@@ -103,7 +103,7 @@ nav ul li {
 
 .about {
     background-color: #f7f5f3;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 body{
@@ -250,6 +250,10 @@ footer ul li {
     .nav {
         display: block !important;
     }
+    .about{
+        clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    
+    }
 
     .hamburger,
     #hamNav {
@@ -317,7 +321,7 @@ footer ul li {
         width: 100px;
         left: 3vw;
         position: absolute;
-        padding-top: 5%;
+        padding-top: 3%;
         z-index: 1;
     }
 
