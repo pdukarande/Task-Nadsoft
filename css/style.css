@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.monserrat {
+    font-family: Montserrat;
+}
+
+.hero {
+    background-image: url("../images/background/Hero.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgcolor {
+    background: #071329;
+    opacity: 0.8;
+
+}
+
+.slope {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.logo {
+    width: 80px;
+}
+
+.hex1 {
+    width: 18vw;
+    position: absolute;
+    right: 12vw;
+    bottom: 22vh;
+}
+
+.hex2 {
+    width: 8vw;
+    position: absolute;
+    right: 25vw;
+    bottom: 28vh;
+}
+
+h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hex3 {
+    display: block;
+    width: 68px;
+    right: 20vw;
+    bottom: -3vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.hex4 {
+    display: none;
+}
+
+.nav {
+    display: none !important;
+}
+
+#hamNav ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+#hamNav {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+}
+
+.hamburger {
+    display: grid;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.btns {
+    width: 300px;
+    background-color: #dbd7cf;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+}
+
+.about {
+    background-color: #f7f5f3;
+    padding-bottom: 10%;
+}
+
+body{
+    background-color: #071329 ;
+}
+.map,footer{
+    background-color: #fff;
+}
+
+.info-bg {
+    background-color: #071329;
+    padding-bottom: 15%;
+    color: #ffffff;
+    position: relative;
+}
+
+.slope2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.imgBig {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.info span {
+    letter-spacing: 1px;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.info-desciption {
+    padding-top: 7vw;
+}
+
+.heroContent {
+    padding-top: 5%;
+    padding-bottom: 14%;
+}
+
+.heroContent span {
+    color: #dbd7cf
+}
+
+.Abouthex1 {
+    position: absolute;
+    width: 5vw;
+    left: 18vw;
+}
+.about{
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+
+}
+
+
+.Abouthex2 {
+    width: 7vw;
+    position: absolute;
+    left: 34vw;
+}
+
+.infoHex {
+    position: absolute;
+    bottom: 18vh;
+    width: 20px;
+    right: 50vw;
+}
+
+.infoMiddle {
+    width: 30px;
+    margin-top: 7vh;
+}
+
+footer {
+    border-top: 1px solid #dedbd4;
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.searchss {
+    width: 100%;
+    padding: 7px;
+    margin-top: 7px;
+}
+
+.infoHexes {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 41vw;
+    z-index: 6;
+}
+
+@media screen and (min-width: 768px) {
+    .heroContent {
+        display: flex;
+    }
+
+    .infoHexes {
+        width: 100px;
+    }
+
+    .hex1 {
+        bottom: 40vh;
+    }
+
+    .infoHex {
+        bottom: 15vh;
+        width: 4vw;
+        right: 60vw;
+    }
+
+    .infoMiddle {
+        width: 4vw;
+        right: 75vw;
+        bottom: 7vh;
+        position: absolute;
+    }
+    .about{
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    
+    }
+    .Abouthex1{
+        width: 4vw;
+    }
+    .Abouthex2{
+        width: 3vw;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .nav {
+        display: block !important;
+    }
+
+    .hamburger,
+    #hamNav {
+        display: none !important;
+    }
+
+    .infoHex {
+
+        bottom: 32vh;
+        width: 2vw;
+        right: 20vw;
+    }
+
+    .about-content,
+    .info,
+    .map {
+        display: flex;
+    }
+
+    .alignContent {
+        padding: 0vw 5vw;
+    }
+
+    .info-desciption {
+        padding-top: 2vw;
+    }
+
+    .hex2 {
+        width: 5vw;
+        position: absolute;
+        right: 7vw;
+    }
+
+    .hex1 {
+        bottom: 55vh;
+    }
+
+    .hex3 {
+        display: block;
+        width: 140px;
+        position: absolute;
+        top: 63vh;
+        right: 20vw;
+        z-index: 1;
+    }
+    
+    .Abouthex1 {
+        position: absolute;
+        bottom: -40vh;
+        width: 2vw;
+        left: 7vw;
+    }
+
+    .Abouthex2 {
+        width: 3vw;
+        left: 9vw;
+    }
+
+    .about-content {
+        padding-left: 5vw;
+    }
+
+    .hex4 {
+        display: block;
+        width: 100px;
+        left: 3vw;
+        position: absolute;
+        padding-top: 5%;
+        z-index: 1;
+    }
+
+    .imgBig {
+        width: 45vw;
+        position: absolute;
+        right: 0;
+        padding-top: 0px;
+    }
+
+    .infoMiddle {
+        width: 3vw;
+        right: 16vw;
+        bottom: 24vh;
+        position: absolute;
+    }
+
+    .infoHexes {
+        bottom: 3vh;
+        right: 26vw;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .alignP {
+        margin-top: 6.5vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .imgBig {
+        width: 37vw;
+    }
+}
